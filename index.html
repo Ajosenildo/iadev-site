@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iadev.app - Apresentação TasKCom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">iadev.app</div>
+            <nav>
+                <a href="#overview">O Sistema</a>
+                <a href="#features">Funcionalidades</a>
+                <a href="#contact">Contato</a>
+                <a href="https://taskcom.iadev.app" class="cta-button-outline" target="_blank">Acessar o App</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>TasKCom: A Evolução na Gestão de Tarefas Operacionais</h1>
+                <p class="subtitle">Transforme o caos de planilhas e grupos de WhatsApp em um fluxo de trabalho organizado, mensurável e eficiente. Controle e ordem, esse é o foco!</p>
+                <a href="#contact" class="cta-button">Solicite uma Demonstração</a>
+            </div>
+        </section>
+
+        <section id="overview">
+            <div class="container">
+                <h2>O fim da desorganização. O início da produtividade.</h2>
+                <p class="section-description">O TasKCom foi desenhado para equipes que precisam de clareza e controle. Delegue, acompanhe o progresso em tempo real e tome decisões baseadas em dados, não em suposições.</p>
+                <div class="overview-grid">
+                    <div class="overview-card">
+                        <div class="icon">📊</div>
+                        <h3>Centralização Total</h3>
+                        <p>Todas as demandas, de todos os clientes ou unidades, em um único lugar. Saiba quem está fazendo o quê, e quando deve ser entregue.</p>
+                    </div>
+                    <div class="overview-card">
+                        <div class="icon">🔔</div>
+                        <h3>Comunicação em Tempo Real</h3>
+                        <p>Notificações automáticas mantêm a equipe alinhada. Tarefas criadas, designadas ou concluídas geram alertas instantâneos.</p>
+                    </div>
+                    <div class="overview-card">
+                        <div class="icon">📈</div>
+                        <h3>Decisões Inteligentes</h3>
+                        <p>Com dashboards e relatórios em PDF, você visualiza gargalos, mede a produtividade da equipe e identifica os clientes que mais demandam tempo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <h2>Uma ferramenta completa para sua operação</h2>
+                <p class="section-description">Explore as funcionalidades que tornam o TasKCom a escolha ideal para sua empresa.</p>
+                
+                <div class="feature-block">
+                    <div class="feature-text">
+                        <h3>Para o Gestor: Controle e Visão Estratégica</h3>
+                        <ul>
+                            <li><strong>Dashboard de Desempenho:</strong> Visualize tarefas em andamento, atrasadas e concluídas. Filtre por colaborador ou período para uma análise precisa.</li>
+                            <li><strong>Gestão de Acessos:</strong> Crie usuários, defina cargos e organize equipes em grupos, restringindo a visualização de tarefas e condomínios apenas ao que for relevante para cada um.</li>
+                            <li><strong>Relatórios Profissionais:</strong> Exporte listas de tarefas em PDF com um clique, incluindo histórico de alterações e descrições detalhadas para prestação de contas.</li>
+                             <li><strong>Administração Centralizada:</strong> Cadastre clientes (condomínios), tipos de tarefa e grupos (filiais) de forma simples, com opção de importação em massa via planilha.</li>
+                        </ul>
+                    </div>
+                    <div class="feature-image">
+                        <img src="/img/dashboard.png" alt="Dashboard do Gestor">
+                    </div>
+                </div>
+
+                <div class="feature-block reverse">
+                    <div class="feature-text">
+                        <h3>Para a Equipe: Clareza e Eficiência no Dia a Dia</h3>
+                        <ul>
+                            <li><strong>Interface Simples e Direta:</strong> Crie e visualize tarefas de forma rápida, sem complexidade. A tela principal é focada no que importa: Criar, Visualizar e seu Desempenho.</li>
+                            <li><strong>Filtros Inteligentes:</strong> Encontre rapidamente suas tarefas por status (Ativas, Concluídas), tipo ou cliente.</li>
+                            <li><strong>Acesso Móvel (PWA):</strong> Instale o TasKCom na tela de início do seu celular e use-o como um aplicativo, ideal para equipes em campo.</li>
+                            <li><strong>Autonomia e Organização:</strong> Cada colaborador visualiza suas próprias métricas de desempenho e tem uma visão clara de suas prioridades e prazos.</li>
+                        </ul>
+                    </div>
+                    <div class="feature-image">
+                         <img src="/img/tarefas.png" alt="Visualização de Tarefas da Equipe">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="container">
+                <h2>Vamos otimizar sua operação?</h2>
+                <p class="section-description">Preencha o formulário abaixo para agendar uma demonstração ou tirar suas dúvidas.</p>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Enviar Mensagem</button>
+                    <div id="form-status"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 iadev.app - Desenvolvido por A. Silva. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
