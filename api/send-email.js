@@ -20,7 +20,7 @@ export default async function handler(req, res) {
     // Monta e envia o e-mail usando o Resend
     const { data, error } = await resend.emails.send({
       from: 'Site iadev.app <onboarding@resend.dev>', // Endereço de envio padrão do Resend
-      to: ['ajosenildosilva@gmail.com'], // Seu e-mail de destino
+      to: ['ajosenildosilva80@yahoo.com'], // Seu e-mail de destino
       subject: `Nova mensagem do site de ${name}`,
       reply_to: email, // Faz o botão "Responder" do seu e-mail funcionar corretamente
       html: `
